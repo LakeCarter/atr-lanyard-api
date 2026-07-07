@@ -1,3 +1,61 @@
 {
-    
+  "users": [
+    {
+      "id": 1,
+      "name": "Lake Carter",
+      "bio": "All of my stories are 95 percent truthful.",
+      "profileImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIuiX61fqBZMaaPy5eLph9aEkWS44TrB1SQ_SAwgRCvw&s=10",
+      "email": "lakecarter@duckmail.com"
+    }
+  ],
+  "braidStyle": [
+    {
+      "id": 1,
+      "name": "Three-cord Braid",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwWJVCGvYoUoUbvUySQQpXoarNk_xNikDjw8txPt-lIYNI1s4QGaJoRjTy&s=10"
+    },
+    {
+      "id": 2,
+      "name": "square braid",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEzgEtk8MJO2LUGEJjw4AcoOFLL5aLBcOiTSx92aNrqQ&s=10"
+    }
+  ],
+  "neckStyle": [
+    {
+      "id": 1,
+      "name": "none",
+      "image": ""
+    },
+    {
+      "id": 2,
+      "name": "Cobra braid",
+      "image": ""
+    }
+  ],
+  "lanyard": [
+    {
+      "id": 1,
+      "creatorId": 1,
+      "dateCreated": "7/6/2026",
+      "braidStyleId": 1,
+      "numberOfDrops": 6,
+      "neckStlyeId": 2,
+      "qdDrop": false,
+      "primaryCordColor1": 1,
+      "primaryCordColor2": 1,
+      "neckRestColor1": 1,
+      "neckRestColor2": 1,
+      "bridgeBraidColor1": 1,
+      "bridgeBraidColor2": 1,
+      "dropBraidColor1": 1,
+      "dropBraidColor2": 1
+    }
+  ],
+  "likes": [
+    {
+        "id":1,
+        "userId":1,
+        "lanyard":1
+    }
+]
 }
