@@ -23,12 +23,44 @@
   "neckStyle": [
     {
       "id": 1,
-      "name": "none",
+      "name": "None",
       "image": ""
     },
     {
       "id": 2,
       "name": "Cobra braid",
+      "image": ""
+    }
+  ],
+  "numberOfDrops": [
+    {
+      "id": 1,
+      "number": 1,
+      "image": ""
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "image": ""
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "image": ""
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "image": ""
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "image": ""
+    },
+    {
+      "id": 6,
+      "number": 6,
       "image": ""
     }
   ],
@@ -38,8 +70,8 @@
       "creatorId": 1,
       "dateCreated": "7/6/2026",
       "braidStyleId": 1,
-      "numberOfDrops": 6,
-      "neckStlyeId": 2,
+      "numberOfDropsId": 6,
+      "neckStyleId": 2,
       "qdDrop": false,
       "primaryCordColor1": 1,
       "primaryCordColor2": 1,
@@ -47,15 +79,16 @@
       "neckRestColor2": 1,
       "bridgeBraidColor1": 1,
       "bridgeBraidColor2": 1,
-      "dropBraidColor1": 1,
-      "dropBraidColor2": 1
+      "sideDropColor": 1,
+      "mainDropColor": 1,
+      "lanyardName": "Lanyard the first"
     }
   ],
   "likes": [
     {
-        "id":1,
-        "userId":1,
-        "lanyard":1
+      "id": 1,
+      "userId": 1,
+      "lanyard": 1
     }
-]
+  ]
 }
