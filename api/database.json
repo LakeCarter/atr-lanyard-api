@@ -6,6 +6,13 @@
       "bio": "All of my stories are 95 percent truthful.",
       "profileImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIuiX61fqBZMaaPy5eLph9aEkWS44TrB1SQ_SAwgRCvw&s=10",
       "email": "lakecarter@duckmail.com"
+    },
+    {
+      "id": 2,
+      "name": "Jacob Howard",
+      "bio": "Fear God, Love your neighbor and Shoot ducks",
+      "profileImg": "https://scontent-atl3-3.xx.fbcdn.net/v/t39.30808-6/615227013_854146770819831_6022123586288265422_n.jpg?stp=dst-jpg_tt6&cstp=mx1857x1857&ctp=s1857x1857&_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=Kbzjqm-trHEQ7kNvwFR1P2H&_nc_oc=AdpuyNDyO-n8BXcR0aYfyphNGugAZtWONYRER90vIuQR7q_QAU89LBld93Gk94pciqfQNsKB5HfZXbVRdqs3gGUJ&_nc_zt=23&_nc_ht=scontent-atl3-3.xx&_nc_gid=h1qYYxWHtjTuchxG_8L4Gg&_nc_ss=7b289&oh=00_AQBk-cezw0s-5MD6hV_0GGga_WlVkupn_tavLzBzk9nctw&oe=6A587F2C",
+      "email": "jacobhoward@duckmail.com"
     }
   ],
   "braidStyle": [
@@ -67,7 +74,7 @@
   "lanyard": [
     {
       "id": 1,
-      "creatorId": 1,
+      "userId": 1,
       "dateCreated": "7/6/2026",
       "braidStyleId": 1,
       "numberOfDropsId": 6,
@@ -84,11 +91,11 @@
       "name": "Lanyard the first"
     },
     {
-      "creatorId": 1,
-      "dateCreated": "",
-      "braidStyleId": "1",
-      "numberOfDropsId": "5",
-      "neckStyleId": "1",
+      "userId": 1,
+      "dateCreated": "7/9/2026",
+      "braidStyleId": 1,
+      "numberOfDropsId": 5,
+      "neckStyleId": 1,
       "qdDrop": false,
       "primaryCordColor1": "#0084ff",
       "primaryCordColor2": "#603f10",
@@ -102,12 +109,12 @@
       "id": 2
     },
     {
-      "creatorId": 1,
-      "dateCreated": "",
-      "braidStyleId": "2",
-      "numberOfDropsId": "4",
-      "neckStyleId": "2",
-      "qdDrop": "true",
+      "userId": 2,
+      "dateCreated": "7/9/2026",
+      "braidStyleId": 2,
+      "numberOfDropsId": 4,
+      "neckStyleId": 2,
+      "qdDrop": true,
       "primaryCordColor1": "#9c2d11",
       "primaryCordColor2": "#ba702c",
       "neckRestColor1": "#9e642e",
@@ -120,12 +127,12 @@
       "id": 3
     },
     {
-      "creatorId": 1,
-      "dateCreated": "",
-      "braidStyleId": "1",
-      "numberOfDropsId": "6",
-      "neckStyleId": "2",
-      "qdDrop": "true",
+      "userId": 2,
+      "dateCreated": "7/9/2026",
+      "braidStyleId": 1,
+      "numberOfDropsId": 6,
+      "neckStyleId": 2,
+      "qdDrop": true,
       "primaryCordColor1": "#2d0080",
       "primaryCordColor2": "#a97832",
       "neckRestColor1": "#c5baba",
@@ -142,7 +149,12 @@
     {
       "id": 1,
       "userId": 1,
-      "lanyard": 1
+      "lanyardId": 1
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "lanyardId": 3
     }
   ]
 }
