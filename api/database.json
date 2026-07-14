@@ -80,17 +80,18 @@
       "numberOfDropsId": 6,
       "neckStyleId": 2,
       "qdDrop": false,
-      "primaryCordColor1": 1,
-      "primaryCordColor2": 1,
-      "neckRestColor1": 1,
-      "neckRestColor2": 1,
-      "bridgeBraidColor1": 1,
-      "bridgeBraidColor2": 1,
-      "sideDropColor": 1,
-      "mainDropColor": 1,
+      "primaryCordColor1": "#0084ff",
+      "primaryCordColor2": "#603f10",
+      "neckRestColor1": "#1e432c",
+      "neckRestColor2": "#a8a8a8",
+      "bridgeBraidColor1": "#603f10",
+      "bridgeBraidColor2": "#ffffff",
+      "sideDropColor": "#a7896f",
+      "mainDropColor": "#edede4",
       "name": "Lanyard the first"
     },
     {
+      "id": 2,
       "userId": 1,
       "dateCreated": "7/9/2026",
       "braidStyleId": 1,
@@ -104,9 +105,8 @@
       "bridgeBraidColor1": "#603f10",
       "bridgeBraidColor2": "#ffffff",
       "sideDropColor": "#a7896f",
-      "name": "Mallet",
       "mainDropColor": "#edede4",
-      "id": 2
+      "name": "Mallet"
     },
     {
       "userId": 2,
@@ -152,7 +152,12 @@
       "lanyardId": 1
     },
     {
-      "id": 2,
+      "id": 3,
+      "userId": 1,
+      "lanyardId": 4
+    },
+    {
+      "id": 4,
       "userId": 1,
       "lanyardId": 3
     }
