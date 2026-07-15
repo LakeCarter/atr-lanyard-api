@@ -13,6 +13,13 @@
       "bio": "Fear God, Love your neighbor and Shoot ducks",
       "profileImg": "https://scontent-atl3-3.xx.fbcdn.net/v/t39.30808-6/615227013_854146770819831_6022123586288265422_n.jpg?stp=dst-jpg_tt6&cstp=mx1857x1857&ctp=s1857x1857&_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=Kbzjqm-trHEQ7kNvwFR1P2H&_nc_oc=AdpuyNDyO-n8BXcR0aYfyphNGugAZtWONYRER90vIuQR7q_QAU89LBld93Gk94pciqfQNsKB5HfZXbVRdqs3gGUJ&_nc_zt=23&_nc_ht=scontent-atl3-3.xx&_nc_gid=h1qYYxWHtjTuchxG_8L4Gg&_nc_ss=7b289&oh=00_AQBk-cezw0s-5MD6hV_0GGga_WlVkupn_tavLzBzk9nctw&oe=6A587F2C",
       "email": "jacobhoward@duckmail.com"
+    },
+    {
+      "name": "Not a deer",
+      "bio": "What going on in this neck of the woods eh?",
+      "profileImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi2V5-1O7d2EMYqDqZ3vO9gL_acrPG5b5HCTDaCDj3EQ&s=10",
+      "email": "buckingham@stagmail.com",
+      "id": 3
     }
   ],
   "braidStyle": [
@@ -71,7 +78,7 @@
       "image": ""
     }
   ],
-  "lanyard": [
+  "lanyards": [
     {
       "id": 1,
       "userId": 1,
@@ -147,19 +154,9 @@
   ],
   "likes": [
     {
-      "id": 1,
-      "userId": 1,
-      "lanyardId": 1
-    },
-    {
-      "id": 3,
+      "id": 2,
       "userId": 1,
       "lanyardId": 4
-    },
-    {
-      "id": 4,
-      "userId": 1,
-      "lanyardId": 3
     }
   ]
 }
