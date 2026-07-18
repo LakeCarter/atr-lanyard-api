@@ -95,7 +95,8 @@
       "bridgeBraidColor2": "#ffffff",
       "sideDropColor": "#a7896f",
       "mainDropColor": "#edede4",
-      "name": "Lanyard the first"
+      "name": "Lanyard the first",
+      "featured": true
     },
     {
       "id": 2,
@@ -113,7 +114,8 @@
       "bridgeBraidColor2": "#ffffff",
       "sideDropColor": "#a7896f",
       "mainDropColor": "#edede4",
-      "name": "Mallet"
+      "name": "Mallet",
+      "featured": false
     },
     {
       "userId": 2,
@@ -131,7 +133,8 @@
       "sideDropColor": "#c2c2c2",
       "name": "Ole Red",
       "mainDropColor": "#5c0000",
-      "id": 3
+      "id": 3,
+      "featured": false
     },
     {
       "userId": 2,
@@ -149,7 +152,8 @@
       "sideDropColor": "#f29e50",
       "name": "The Duke",
       "mainDropColor": "#7e00c2",
-      "id": 4
+      "id": 4,
+      "featured": true
     }
   ],
   "likes": [
