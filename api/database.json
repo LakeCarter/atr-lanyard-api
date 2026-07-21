@@ -9,9 +9,9 @@
     },
     {
       "id": 2,
-      "name": "Jacob Howard",
+      "name": "Jacobson O'Reilly",
       "bio": "Fear God, Love your neighbor and Shoot ducks",
-      "profileImg": "https://scontent-atl3-3.xx.fbcdn.net/v/t39.30808-6/615227013_854146770819831_6022123586288265422_n.jpg?stp=dst-jpg_tt6&cstp=mx1857x1857&ctp=s1857x1857&_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=Kbzjqm-trHEQ7kNvwFR1P2H&_nc_oc=AdpuyNDyO-n8BXcR0aYfyphNGugAZtWONYRER90vIuQR7q_QAU89LBld93Gk94pciqfQNsKB5HfZXbVRdqs3gGUJ&_nc_zt=23&_nc_ht=scontent-atl3-3.xx&_nc_gid=h1qYYxWHtjTuchxG_8L4Gg&_nc_ss=7b289&oh=00_AQBk-cezw0s-5MD6hV_0GGga_WlVkupn_tavLzBzk9nctw&oe=6A587F2C",
+      "profileImg": "https://www.dereknielsen.com/wp-content/uploads/2024/02/Stunning-display-900x600.jpg",
       "email": "jacobhoward@duckmail.com"
     },
     {
@@ -95,8 +95,7 @@
       "bridgeBraidColor2": "#ffffff",
       "sideDropColor": "#a7896f",
       "mainDropColor": "#edede4",
-      "name": "Lanyard the first",
-      "featured": true
+      "name": "Lanyard not the first"
     },
     {
       "id": 2,
@@ -154,13 +153,37 @@
       "mainDropColor": "#7e00c2",
       "id": 4,
       "featured": true
+    },
+    {
+      "id": 5,
+      "userId": 1,
+      "dateCreated": "7/20/2026",
+      "braidStyleId": 1,
+      "numberOfDropsId": 4,
+      "neckStyleId": 2,
+      "qdDrop": false,
+      "primaryCordColor1": "#856e47",
+      "primaryCordColor2": "#a25a48",
+      "neckRestColor1": "#eaebe7",
+      "neckRestColor2": "#204c22",
+      "bridgeBraidColor1": "#0e0c0d",
+      "bridgeBraidColor2": "#f3f4f3",
+      "sideDropColor": "#204c22",
+      "mainDropColor": "#eb6b12",
+      "name": "Woodie",
+      "featured": true
     }
   ],
   "likes": [
     {
-      "id": 2,
+      "id": 4,
       "userId": 1,
       "lanyardId": 4
+    },
+    {
+      "id": 5,
+      "userId": 3,
+      "lanyardId": 5
     }
   ]
 }
