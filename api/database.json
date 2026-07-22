@@ -26,24 +26,39 @@
     {
       "id": 1,
       "name": "Three-cord Braid",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwWJVCGvYoUoUbvUySQQpXoarNk_xNikDjw8txPt-lIYNI1s4QGaJoRjTy&s=10"
+      "images":[
+        { "name":"prim1",
+          "img":"https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/prim1.png"},
+        
+        { "name":"prim2",
+          "img":"https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/prim2.png"},
+
+        { "name":"prim3",
+          "img":"https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/prim3.png"}
+      ]
     },
     {
       "id": 2,
       "name": "square braid",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEzgEtk8MJO2LUGEJjw4AcoOFLL5aLBcOiTSx92aNrqQ&s=10"
+      "image": ""
     }
   ],
   "neckStyle": [
     {
       "id": 1,
       "name": "None",
-      "image": ""
+      "images": []
     },
     {
       "id": 2,
       "name": "Cobra braid",
-      "image": ""
+      "images":[
+        { "name":"neck1",
+          "img":"https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/neck1.png"},
+        
+        { "name":"neck2",
+          "img":"https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/neck2.png"}
+      ]
     }
   ],
   "numberOfDrops": [
