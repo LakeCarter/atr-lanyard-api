@@ -26,15 +26,24 @@
     {
       "id": 1,
       "name": "Three-cord Braid",
-      "images":[
-        { "name":"prim1",
-          "img":"https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/prim1.png"},
-        
-        { "name":"prim2",
-          "img":"https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/prim2.png"},
+      "images": [
+        {
+          "name": "prim1",
+          "imgBase": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/Base/M base 1.png",
+          "imgMask": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/Mask/M mask 1.png"
+        },
 
-        { "name":"prim3",
-          "img":"https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/prim3.png"}
+        {
+          "name": "prim2",
+          "imgBase": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/Base/M base 2.png",
+          "imgMask": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/Mask/M Mask 2.png"
+        },
+
+        {
+          "name": "prim3",
+          "imgBase": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/Base/M base 3.png",
+          "imgMask": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/Mask/M mask 3.png"
+        }
       ]
     },
     {
@@ -52,12 +61,18 @@
     {
       "id": 2,
       "name": "Cobra braid",
-      "images":[
-        { "name":"neck1",
-          "img":"https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/neck1.png"},
-        
-        { "name":"neck2",
-          "img":"https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/neck2.png"}
+      "images": [
+        {
+          "name": "neck1",
+          "imgBase": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/Base/N base 1.png",
+          "imgMask": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/Mask/N Mask 1.png"
+        },
+
+        {
+          "name": "neck2",
+          "imgBase": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/Base/N base 2.png",
+          "imgMask": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/Mask/N Mask 2.png"
+        }
       ]
     }
   ],
@@ -65,32 +80,26 @@
     {
       "id": 1,
       "number": 1,
-      "image": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/drop1.png"
+      "imgBase": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/Base/D base 1.png",
+      "imgMask": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/Mask/D mask 1.png"
     },
     {
       "id": 2,
       "number": 2,
-      "image": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/drop2.png"
+      "imgBase": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/Base/D base 2.png",
+      "imgMask": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/Mask/D mask 2.png"
     },
     {
       "id": 3,
       "number": 3,
-      "image": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/drop3.png"
+      "imgBase": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/Base/D base 3.png",
+      "imgMask": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/Mask/D mask 3.png"
     },
     {
       "id": 4,
       "number": 4,
-      "image": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/drop4.png"
-    },
-    {
-      "id": 5,
-      "number": 5,
-      "image": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/drop5.png"
-    },
-    {
-      "id": 6,
-      "number": 6,
-      "image": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/drop6.png"
+      "imgBase": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/Base/D base 4.png",
+      "imgMask": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/Mask/D mask 4.png"
     }
   ],
   "lanyards": [
