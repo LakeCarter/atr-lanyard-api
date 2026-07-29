@@ -32,13 +32,11 @@
           "imgBase": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/Base/M base 1.png",
           "imgMask": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/Mask/M mask 1.png"
         },
-
         {
           "name": "prim2",
           "imgBase": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/Base/M base 2.png",
           "imgMask": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/Mask/M Mask 2.png"
         },
-
         {
           "name": "prim3",
           "imgBase": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/Base/M base 3.png",
@@ -67,7 +65,6 @@
           "imgBase": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/Base/N base 1.png",
           "imgMask": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/Mask/N Mask 1.png"
         },
-
         {
           "name": "neck2",
           "imgBase": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/Base/N base 2.png",
@@ -104,31 +101,13 @@
   ],
   "lanyards": [
     {
-      "id": 1,
-      "userId": 1,
-      "dateCreated": "7/6/2026",
-      "braidStyleId": 1,
-      "numberOfDropsId": 6,
-      "neckStyleId": 2,
-      "qdDrop": false,
-      "primaryCordColor1": "#0084ff",
-      "primaryCordColor2": "#603f10",
-      "neckRestColor1": "#1e432c",
-      "neckRestColor2": "#a8a8a8",
-      "bridgeBraidColor1": "#603f10",
-      "bridgeBraidColor2": "#ffffff",
-      "sideDropColor": "#a7896f",
-      "mainDropColor": "#edede4",
-      "name": "Lanyard not the first"
-    },
-    {
       "id": 2,
       "userId": 1,
       "dateCreated": "7/9/2026",
       "braidStyleId": 1,
-      "numberOfDropsId": 5,
+      "numberOfDropsId": 1,
       "neckStyleId": 1,
-      "qdDrop": false,
+      "qdDrop": true,
       "primaryCordColor1": "#0084ff",
       "primaryCordColor2": "#603f10",
       "neckRestColor1": "#1e432c",
@@ -137,8 +116,7 @@
       "bridgeBraidColor2": "#ffffff",
       "sideDropColor": "#a7896f",
       "mainDropColor": "#edede4",
-      "name": "Mallet",
-      "featured": false
+      "name": "Mallet"
     },
     {
       "userId": 2,
@@ -160,12 +138,13 @@
       "featured": false
     },
     {
+      "id": 4,
       "userId": 2,
       "dateCreated": "7/9/2026",
       "braidStyleId": 1,
-      "numberOfDropsId": 6,
+      "numberOfDropsId": 4,
       "neckStyleId": 2,
-      "qdDrop": true,
+      "qdDrop": "true",
       "primaryCordColor1": "#2d0080",
       "primaryCordColor2": "#a97832",
       "neckRestColor1": "#c5baba",
@@ -173,10 +152,8 @@
       "bridgeBraidColor1": "#3a017e",
       "bridgeBraidColor2": "#46027e",
       "sideDropColor": "#f29e50",
-      "name": "The Duke",
       "mainDropColor": "#7e00c2",
-      "id": 4,
-      "featured": true
+      "name": "The Duke"
     },
     {
       "id": 5,
@@ -196,18 +173,126 @@
       "mainDropColor": "#eb6b12",
       "name": "Woodie",
       "featured": true
+    },
+    {
+      "id": 6,
+      "userId": 1,
+      "dateCreated": "7/28/2026",
+      "braidStyleId": 1,
+      "numberOfDropsId": 2,
+      "neckStyleId": 2,
+      "qdDrop": false,
+      "primaryCordColor1": "#e70d0d",
+      "primaryCordColor2": "#35f500",
+      "neckRestColor1": "#12b51d",
+      "neckRestColor2": "#ffffff",
+      "bridgeBraidColor1": "#ff0000",
+      "bridgeBraidColor2": "#ffffff",
+      "sideDropColor": "#009926",
+      "mainDropColor": "#ff0000",
+      "name": "The Elf"
+    },
+    {
+      "id": 7,
+      "userId": 1,
+      "dateCreated": "7/28/2026",
+      "braidStyleId": 1,
+      "numberOfDropsId": 2,
+      "neckStyleId": 2,
+      "qdDrop": false,
+      "primaryCordColor1": "#957c50",
+      "primaryCordColor2": "#957c50",
+      "primaryCordColor3": "#f9e1b8",
+      "neckRestColor1": "#957c50",
+      "neckRestColor2": "#6979ab",
+      "bridgeBraidColor1": "#173503",
+      "bridgeBraidColor2": "#d9d9d9",
+      "sideDropColor": "#5e6a94",
+      "mainDropColor": "#957c50",
+      "name": "default",
+      "featured": false
+    },
+    {
+      "id": 8,
+      "userId": 3,
+      "dateCreated": "7/28/2026",
+      "braidStyleId": 1,
+      "numberOfDropsId": 4,
+      "neckStyleId": 2,
+      "qdDrop": false,
+      "primaryCordColor1": "#765739",
+      "primaryCordColor2": "#f7cc88",
+      "primaryCordColor3": "#201c1b",
+      "neckRestColor1": "#956233",
+      "neckRestColor2": "#eab56c",
+      "bridgeBraidColor1": "#3d301d",
+      "bridgeBraidColor2": "#b39d77",
+      "sideDropColor": "#956233",
+      "mainDropColor": "#f7cc88",
+      "name": "The Stag",
+      "featured": false
+    },
+    {
+      "id": 9,
+      "userId": 3,
+      "dateCreated": "7/28/2026",
+      "braidStyleId": 1,
+      "numberOfDropsId": 3,
+      "neckStyleId": 2,
+      "qdDrop": false,
+      "primaryCordColor1": "#312f3b",
+      "primaryCordColor2": "#ccd1d9",
+      "primaryCordColor3": "#bfbfca",
+      "neckRestColor1": "#bb6c54",
+      "neckRestColor2": "#aa6044",
+      "bridgeBraidColor1": "#ad6c0d",
+      "bridgeBraidColor2": "#915136",
+      "sideDropColor": "#dce5f1",
+      "mainDropColor": "#cfcfdb",
+      "name": "Canvasback",
+      "featured": true
+    },
+    {
+      "id": 10,
+      "userId": 3,
+      "dateCreated": "7/28/2026",
+      "braidStyleId": 2,
+      "numberOfDropsId": 1,
+      "neckStyleId": 2,
+      "qdDrop": "true",
+      "primaryCordColor1": "#bdbdb3",
+      "primaryCordColor2": "#787a6d",
+      "primaryCordColor3": "#747468",
+      "neckRestColor1": "#7f5c30",
+      "neckRestColor2": "#393126",
+      "bridgeBraidColor1": "#7f5c30",
+      "bridgeBraidColor2": "#393126",
+      "sideDropColor": "#252a2d",
+      "mainDropColor": "#7f5c30",
+      "name": "Silver Pigeon",
+      "featured": false
     }
   ],
   "likes": [
     {
-      "id": 4,
+      "id": 1,
+      "userId": 1,
+      "lanyardId": 3
+    },
+    {
+      "id": 2,
       "userId": 1,
       "lanyardId": 4
     },
     {
-      "id": 5,
-      "userId": 3,
+      "id": 3,
+      "userId": 2,
       "lanyardId": 5
+    },
+    {
+      "id": 4,
+      "userId": 2,
+      "lanyardId": 7
     }
   ]
 }
