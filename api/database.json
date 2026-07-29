@@ -20,6 +20,13 @@
       "profileImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi2V5-1O7d2EMYqDqZ3vO9gL_acrPG5b5HCTDaCDj3EQ&s=10",
       "email": "buckingham@stagmail.com",
       "id": 3
+    },
+    {
+      "name": "Lilly",
+      "bio": "Nope",
+      "profileImg": "https://gardenplannerwebsites.azureedge.net/plants/LLV.jpg",
+      "email": "lillyc23@duckmail.com",
+      "id": 4
     }
   ],
   "braidStyle": [
@@ -47,7 +54,18 @@
     {
       "id": 2,
       "name": "square braid",
-      "image": ""
+      "images": [
+        {
+          "name": "prim1",
+          "imgBase": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/Base/M sq base 1.png",
+          "imgMask": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/Mask/M sq mask 1.png"
+        },
+        {
+          "name": "prim2",
+          "imgBase": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/Base/M sq base 2.png",
+          "imgMask": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/Mask/M sq mask 2.png"
+        }
+      ]
     }
   ],
   "neckStyle": [
@@ -69,6 +87,22 @@
           "name": "neck2",
           "imgBase": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/Base/N base 2.png",
           "imgMask": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/Mask/N Mask 2.png"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Square braid",
+      "images": [
+        {
+          "name": "neck1",
+          "imgBase": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/Base/N sq base 1.png",
+          "imgMask": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/Mask/N sq mask 1.png"
+        },
+        {
+          "name": "neck2",
+          "imgBase": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/Base/N sq base 2.png",
+          "imgMask": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/Mask/N sq mask 2.png"
         }
       ]
     }
@@ -270,6 +304,46 @@
       "sideDropColor": "#252a2d",
       "mainDropColor": "#7f5c30",
       "name": "Silver Pigeon",
+      "featured": false
+    },
+    {
+      "id": 11,
+      "userId": 4,
+      "dateCreated": "7/28/2026",
+      "braidStyleId": 1,
+      "numberOfDropsId": 2,
+      "neckStyleId": 2,
+      "qdDrop": false,
+      "primaryCordColor1": "#4b701f",
+      "primaryCordColor2": "#eeeae2",
+      "primaryCordColor3": "#c1a544",
+      "neckRestColor1": "#fbf8f4",
+      "neckRestColor2": "#978235",
+      "bridgeBraidColor1": "#a38500",
+      "bridgeBraidColor2": "#ffee99",
+      "sideDropColor": "#429a50",
+      "mainDropColor": "#398942",
+      "name": "Lilly of the Valley",
+      "featured": false
+    },
+    {
+      "id": 12,
+      "userId": 2,
+      "dateCreated": "7/28/2026",
+      "braidStyleId": 1,
+      "numberOfDropsId": 4,
+      "neckStyleId": 2,
+      "qdDrop": false,
+      "primaryCordColor1": "#463401",
+      "primaryCordColor2": "#c1b18a",
+      "primaryCordColor3": "#fffdf5",
+      "neckRestColor1": "#e7d6c1",
+      "neckRestColor2": "#fffcf0",
+      "bridgeBraidColor1": "#e9e2c8",
+      "bridgeBraidColor2": "#463401",
+      "sideDropColor": "#463401",
+      "mainDropColor": "#c1b18a",
+      "name": "Vintage Tan",
       "featured": false
     }
   ],
