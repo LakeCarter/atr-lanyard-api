@@ -49,7 +49,8 @@
           "imgBase": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/Base/M base 3.png",
           "imgMask": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/Mask/M mask 3.png"
         }
-      ]
+      ],
+      "shadow": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/Shadow/M shadow.png"
     },
     {
       "id": 2,
@@ -65,7 +66,8 @@
           "imgBase": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/Base/M sq base 2.png",
           "imgMask": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/Mask/M sq mask 2.png"
         }
-      ]
+      ],
+      "shadow": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/Shadow/M sq shadow.png"
     }
   ],
   "neckStyle": [
@@ -88,7 +90,8 @@
           "imgBase": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/Base/N base 2.png",
           "imgMask": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/Mask/N Mask 2.png"
         }
-      ]
+      ],
+      "shadow": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/Shadow/N shadow.png"
     },
     {
       "id": 3,
@@ -104,7 +107,8 @@
           "imgBase": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/Base/N sq base 2.png",
           "imgMask": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/Mask/N sq mask 2.png"
         }
-      ]
+      ],
+      "shadow": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/Shadow/N sq shadow.png"
     }
   ],
   "numberOfDrops": [
@@ -112,25 +116,29 @@
       "id": 1,
       "number": 1,
       "imgBase": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/Base/D base 1.png",
-      "imgMask": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/Mask/D mask 1.png"
+      "imgMask": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/Mask/D mask 1.png",
+      "shadow": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/Shadow/D shadow 1.png"
     },
     {
       "id": 2,
       "number": 2,
       "imgBase": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/Base/D base 2.png",
-      "imgMask": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/Mask/D mask 2.png"
+      "imgMask": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/Mask/D mask 2.png",
+      "shadow": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/Shadow/D shadow 2.png"
     },
     {
       "id": 3,
       "number": 3,
       "imgBase": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/Base/D base 3.png",
-      "imgMask": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/Mask/D mask 3.png"
+      "imgMask": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/Mask/D mask 3.png",
+      "shadow": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/Shadow/D shadow 3.png"
     },
     {
       "id": 4,
       "number": 4,
       "imgBase": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/Base/D base 4.png",
-      "imgMask": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/Mask/D mask 4.png"
+      "imgMask": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/Mask/D mask 4.png",
+      "shadow": "https://raw.githubusercontent.com/LakeCarter/atr-lanyard/main/src/assets/lanyardAssets/Shadow/D shadow 4.png"
     }
   ],
   "lanyards": [
@@ -140,7 +148,7 @@
       "dateCreated": "7/9/2026",
       "braidStyleId": 1,
       "numberOfDropsId": 1,
-      "neckStyleId": 1,
+      "neckStyleId": 3,
       "qdDrop": true,
       "primaryCordColor1": "#0084ff",
       "primaryCordColor2": "#603f10",
@@ -150,7 +158,8 @@
       "bridgeBraidColor2": "#ffffff",
       "sideDropColor": "#a7896f",
       "mainDropColor": "#edede4",
-      "name": "Mallet"
+      "name": "Mallet",
+      "featured": false
     },
     {
       "userId": 2,
@@ -187,7 +196,8 @@
       "bridgeBraidColor2": "#46027e",
       "sideDropColor": "#f29e50",
       "mainDropColor": "#7e00c2",
-      "name": "The Duke"
+      "name": "The Duke",
+      "featured": false
     },
     {
       "id": 5,
@@ -197,15 +207,16 @@
       "numberOfDropsId": 4,
       "neckStyleId": 2,
       "qdDrop": false,
-      "primaryCordColor1": "#856e47",
-      "primaryCordColor2": "#a25a48",
-      "neckRestColor1": "#eaebe7",
-      "neckRestColor2": "#204c22",
-      "bridgeBraidColor1": "#0e0c0d",
-      "bridgeBraidColor2": "#f3f4f3",
-      "sideDropColor": "#204c22",
-      "mainDropColor": "#eb6b12",
+      "primaryCordColor1": "#291f27",
+      "primaryCordColor2": "#c6b57b",
+      "neckRestColor1": "#7b4e60",
+      "neckRestColor2": "#baa488",
+      "bridgeBraidColor1": "#baa488",
+      "bridgeBraidColor2": "#2c2630",
+      "sideDropColor": "#d36d04",
+      "mainDropColor": "#025347",
       "name": "Woodie",
+      "primaryCordColor3": "#043162",
       "featured": true
     },
     {
@@ -224,7 +235,8 @@
       "bridgeBraidColor2": "#ffffff",
       "sideDropColor": "#009926",
       "mainDropColor": "#ff0000",
-      "name": "The Elf"
+      "name": "The Elf",
+      "featured": false
     },
     {
       "id": 7,
@@ -367,6 +379,11 @@
       "id": 4,
       "userId": 2,
       "lanyardId": 7
+    },
+    {
+      "id": 5,
+      "userId": 1,
+      "lanyardId": 10
     }
   ]
 }
